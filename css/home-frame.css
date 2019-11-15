@@ -1,0 +1,38 @@
+#sec-info{
+    background-image: url(../img/business-desk-1200x773.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+            
+    #sec-obs{
+        background-image: url(../img/GrayOpac30.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        padding: 30px;
+    }
+
+#sec-alt{
+    background-color:#F5F5F5;
+    padding: 10px;
+}
+    
+#sec{
+    padding:10px;
+}
+
+
+/*IF WIDTH IS DESKTOP VIEW*/
+
+ @media screen and (min-width:800px)
+ {    
+     #sec-obs{
+         padding:65px;
+     }
+     
+     #sec-alt{
+         padding:15px;
+     }
+     
+}
