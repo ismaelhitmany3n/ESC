@@ -1,0 +1,101 @@
+        /***********
+        STICKY NAVIGATION BAR
+        ************/
+        
+        #navbar{
+            /*background-color: #333;*/
+            background-color:white;
+            height:100px;
+            /*width:100%; <-- TEMPORARY COMMENT BUT NECESSARY*/
+            color:white;
+            position:sticky;
+            overflow: hidden;
+            z-index: 1;
+            
+            }
+        
+        #navbar a{
+            text-decoration: none;
+            padding:30px;
+            color:#333;
+            float:left;
+        }
+        
+        #navbar a:hover{
+            color:white;
+            background: #C35661;
+        }
+        
+        .sticky{
+            /*position:sticky; <--- PREFERRED*/
+            position:fixed;
+            top:0;
+            /*width:100%; <-- TEMPORARY COMMENT BUT NECESSARY*/
+            
+            /*box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.2);*/
+        }
+        
+        /***********
+        SIDEBAR
+        ************/
+        
+        .sidebar{
+            background-color: #333;
+            position:fixed;
+            left:0;
+            height:100%;
+            width:150px;
+            z-index:0.9; /*or 1*/
+            margin-top:-1%;
+            color:white;
+            padding-top:15px;
+        }
+        
+        .sidebar a{
+            text-decoration: none;
+            color:white;
+            display:block;
+            padding:10px;
+        }
+        
+        .sidebar a:hover{
+            background: #464646;
+        }
+
+	/*********************
+        NAVBAR LOGO and LABEL
+        **********************/
+
+        #logo{
+        float:left;
+        padding:12px;
+        /*display:none;*/
+        }
+
+        #logo-text{
+        float:left;
+        padding:30px;
+        color:#333;
+        font-weight: bold;
+        }
+
+	   /*-webkit-animation-name: fadeIn;
+        -webkit-animation-duration: 0.4s;
+        animation-name: fadeIn;
+        animation-duration: 0.4s;*/
+
+        }
+
+        #label{
+            
+        padding-top:22px;
+        padding-bottom:22px;
+        padding-right:20px;
+        float:left;
+        vertical-align: middle;
+        /*display:none;*/
+        color:#333;
+
+        cursor:pointer;
+
+        }
