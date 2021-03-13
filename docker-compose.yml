@@ -2,10 +2,10 @@ version: "3"
 
 services:
   server:
-    container_name: HTMLESC
+    container_name: MAELSITE
     image: nginx:1.16.1
     volumes:
-    - ./:/usr/share/nginx/HTMLESC
+    - ./:/usr/share/nginx/MAELSITE
     - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     ports:
     - 80:80
